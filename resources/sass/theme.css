@@ -1,0 +1,39 @@
+@import url('//fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500&display=swap');
+
+@import url('//fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@import url('//fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,600;1,700&display=swap');
+
+@import url('//fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+@import '../../public/css/bootstrap.min.css';
+
+@import '~jquery-ui/themes/base/all.css';
+
+@import '../../public/css/font-awesome.css';
+
+@import '../../public/front/vendor/css/rateit.css';
+
+@import '../../public/css/jquery.mCustomScrollbar.min.css';
+
+@import '../../public/front/css/main.css';
+@import '../../public/front/css/blue.css';
+@import '../../public/css/vendor/pace.css';
+
+@import '../../public/front/vendor/css/owl.carousel.css';
+@import '../../public/front/vendor/css/owl.transitions.css';
+
+@import '../../public/css/vendor/animate.min.css';
+
+@import '../../public/css/vendor/select2.min.css';
+
+@import '../../public/css/vendor/card.css';
+
+@import '../../public/css/venom-button.min.css';
+
+@import '../../public/css/user-style.css';
+
+@import '../../public/css/navbar.css';
+
+@import '~vue-snack/dist/vue-snack.min.css';

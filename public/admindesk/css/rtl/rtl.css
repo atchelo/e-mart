@@ -1,0 +1,362 @@
+.sidebar-menu li a .fa-angle-left,
+.sidebar-menu li .label,
+.sidebar-menu li .badge {
+	margin-top: 0px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-weight: 400;
+}
+
+.box.box-solid>.box-header>.box-tools .btn {
+	float: left;
+}
+
+.label-success {
+	float: left !important;
+}
+
+.main-footer span {
+	float: left !important;
+}
+
+.content .pull-right,
+.content .pull-right form {
+	float: left !important;
+}
+
+.widget-user .widget-user-image>img {
+	width: 90px;
+	height: auto;
+	border: 3px solid #fff;
+}
+
+.widget-user-image {
+	position: absolute;
+	top: 65px;
+	left: 50%;
+	margin-left: -45px;
+}
+
+.box {
+	background: #fff;
+	border-top: 3px solid #fdd922;
+	box-shadow: 0 0 60px 0 #e4e7eb;
+}
+
+.widget-user .widget-user-header {
+	padding: 20px;
+	height: 120px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+.widget-user .widget-user-username {
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-size: 25px;
+	font-weight: 300;
+	text-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+}
+
+.widget-user .box-footer {
+	padding-top: 30px;
+}
+
+.sidebar-menu .treeview span i {
+	float: left !important;
+}
+
+.dataTables_filter label {
+	float: right !important;
+	margin-bottom: 10px;
+}
+
+.dt-buttons.btn-group {
+	float: left;
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+	float: left;
+}
+
+.table.table-bordered.table-striped tbody tr td img {
+	float: right;
+}
+
+.table.table-bordered.table-striped tbody tr td .margin-right-15 {
+	margin-left: 15px;
+	margin-right: 0;
+}
+
+#bulk_delete_form {
+	float: right !important;
+}
+
+#full_detail_table .label-success,
+#full_detail_table .label-primary {
+	float: right !important;
+	padding: .3em .6em .3em;
+}
+
+#full_detail_table2 .label-success {
+	float: right !important;
+	padding: .4em .6em .3em;
+}
+
+#full_detail_table td form {
+	float: right !important;
+}
+
+#payouttable .label-primary,
+#completedPayouts .label-primary {
+	padding: .3em .6em .3em;
+}
+
+.slimScrollBar {
+	width: 7px !important;
+	background: rgb(0, 0, 0) !important;
+	left: 1px !important;
+	right: inherit !important;
+}
+
+@media (max-width: 767px) {
+
+	.main-sidebar,
+	.left-side {
+		-webkit-transform: translate(230px, 0);
+		-ms-transform: translate(230px, 0);
+		-o-transform: translate(230px, 0);
+		transform: translate(230px, 0);
+	}
+
+	.sidebar-open .main-sidebar {
+		-webkit-transform: translate(-230px, 0);
+		-ms-transform: translate(-230px, 0);
+		-o-transform: translate(-230px, 0);
+		transform: translate(-230px, 0);
+	}
+
+	.content {
+		margin: 0 15px !important;
+	}
+
+	.nav>li>a {
+		padding: 10px 6px;
+	}
+
+	.main-header .navbar-custom-menu {
+		margin-left: 0;
+	}
+
+	.langdropdown2 {
+		top: -2px;
+	}
+
+	.content .pull-right {
+		float: right !important;
+	}
+
+	.content .pull-right form {
+		margin-right: 0;
+	}
+
+	.dt-buttons.btn-group .btn {
+		padding: 6px 5px;
+	}
+
+	.sidebar .custom-carousel .owl-nav .owl-prev,
+	.sidebar .custom-carousel .owl-nav .owl-next {
+		top: -10px !important;
+	}
+
+	.hot-deals .hot-deal-wrapper .timing-wrapper {
+		right: -40px;
+	}
+
+	.hot-deals .product-info {
+		margin-top: 0;
+	}
+
+	.products.special-product .product-info .pull-left {
+		float: left;
+	}
+
+	.products.special-product .product-info .product-price {
+		float: left;
+	}
+
+	.product-slider-main-block .product .product-info .name {
+		text-align: right;
+	}
+
+	.body-content .sidebar {
+		margin-top: 0;
+		margin-bottom: 0 !important;
+	}
+
+	.detail-block {
+		margin-top: 0;
+	}
+
+	.description-container .description-list ul li {
+		display: flex;
+	}
+
+	.main-content {
+		margin-bottom: 40px;
+	}
+
+	#navbarSupportedContent .favorite-button-one .btn-primary {
+		padding: 18px 0 25px;
+		line-height: 0.5;
+		height: 0;
+	}
+
+	#navbarSupportedContent .favorite-button-box .btn-primary {
+		padding: 12px 0 7px;
+		width: 62px;
+	}
+
+	#navbarSupportedContent .btn-cart {
+		width: 100px;
+		height: 43px;
+		font-size: 12px;
+	}
+
+	#navbarSupportedContent .quant-input .qty-section {
+		height: 42px;
+	}
+
+	#navbarSupportedContent .navbar-nav {
+		margin-right: 40px !important;
+	}
+
+	.sidebar-module-container {
+		margin-top: 130px;
+	}
+
+	.sign-in-page {
+		margin-top: 40% !important;
+	}
+
+	.canvaslogin {
+		display: none;
+	}
+
+	.body-content .sign-in-page .sign-in .social-sign-in .facebook-sign-in {
+		margin-right: 0;
+	}
+
+	.content .btn.btn-success.pull-right {
+		float: left !important;
+	}
+
+	.dataTables_filter label {
+		float: none !important;
+	}
+
+	.table {
+		overflow-x: auto;
+		display: block;
+	}
+
+	table.dataTable {
+		padding-left: 0;
+		padding-right: 0;
+		border-collapse: collapse !important;
+	}
+
+	table::-webkit-scrollbar {
+		width: 5px;
+		height: 4px;
+	}
+
+	table::-webkit-scrollbar-thumb {
+		background-color: #157ED2;
+	}
+
+	table::-webkit-scrollbar-thumb:window-inactive {
+		background-color: #157ED2;
+	}
+
+	.content .pull-right.btn.btn-md.btn-primary,
+	.content .pull-right.btn.bg-blue.btn-flat {
+		float: left !important;
+	}
+
+	.admin-order h4,
+	.admin-order .h4 {
+		font-size: 24px;
+	}
+
+	.content .pull-right.btn.btn-success.owtbtn {
+		float: right !important;
+	}
+
+	.content .pull-right.btn.btn-md.btn-primary,
+	.content .pull-right.btn.bg-blue.btn-flat {
+		float: right !important;
+	}
+
+	.content .pull-right,
+	.content .btn.btn-success.btn-md {
+		float: left !important;
+	}
+
+	.content .pull-right.btn.btn-md.btn-primary,
+	.content .pull-right.btn.bg-blue.btn-flat {
+		float: left !important;
+	}
+
+	#GeoLocationId {
+		padding: 6px 9px;
+	}
+
+	.select2-container--default .select2-selection--multiple .select2-selection__choice {
+		padding: 1px 6px;
+	}
+
+	.panel-heading {
+		padding: 10px 15px 30px;
+	}
+
+	.content .panel-title {
+		float: right !important;
+	}
+
+	.select2.select2-container.select2-container--default.select2-container--focus {
+		width: inherit !important;
+	}
+
+	.tox:not([dir=rtl]) .tox-statusbar__path>* {
+		margin-right: 3px !important;
+	}
+
+	.tox .tox-statusbar {
+		padding: 20px 8px !important;
+	}
+
+	#demo-form2 {
+		padding: 10px;
+	}
+}
+
+#full_detail_table tr td .tx-color {
+	left: -30px;
+}
+
+.label.label-success {
+	padding: .3em .6em .3em;
+}

@@ -1,0 +1,141 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^7.3|^8.0",
+        "anandsiddharth/laravel-paytm-wallet": "^2.0.0",
+        "arcanedev/no-captcha": "^12.0",
+        "bacon/bacon-qr-code": "^2.0",
+        "barryvdh/laravel-dompdf": "^0.8.4",
+        "braintree/braintree_php": "^5.2",
+        "cartalyst/stripe-laravel": "13.0.*",
+        "consoletvs/charts": "6.*",
+        "craftsys/msg91-laravel": "^0.12.0",
+        "craftsys/msg91-laravel-notification-channel": "^0.5.0",
+        "cyrildewit/eloquent-viewable": "^5.2",
+        "devmarketer/easynav": "^1.0",
+        "fideloper/proxy": "^4.4",
+        "fruitcake/laravel-cors": "^2.0",
+        "guzzlehttp/guzzle": "^6.2|^7.0.1",
+        "htmlmin/htmlmin": "^8.0",
+        "instamojo/instamojo-php": "^0.4.0",
+        "intervention/image": "^2.5",
+        "intervention/imagecache": "^2.4",
+        "iyzico/iyzipay-php": "^2.0",
+        "jackiedo/dotenv-editor": "^1.2",
+        "jackiedo/timezonelist": "^5.0",
+        "jorenvanhocht/laravel-share": "^3.2",
+        "kingflamez/laravelrave": "^3.0",
+        "kyslik/column-sortable": "^6.0",
+        "laravel-notification-channels/onesignal": "^2.3",
+        "laravel/framework": "^8.0",
+        "laravel/helpers": "^1.1",
+        "laravel/legacy-factories": "^1.1",
+        "laravel/passport": "^10.1.0",
+        "laravel/socialite": "^5.1.3",
+        "laravel/tinker": "^2.5",
+        "laravel/ui": "^3.0",
+        "laravolt/avatar": "^4.0",
+        "mews/purifier": "^3.2",
+        "mollie/laravel-mollie": "^2.0",
+        "mtownsend/read-time": "^1.1",
+        "nwidart/laravel-modules": "^8.2",
+        "obydul/laraskrill": "^1.1",
+        "omise/omise-php": "^2.12",
+        "orangehill/iseed": "^3.0",
+        "paragonie/random_compat": "2.*",
+        "paypal/rest-api-sdk-php": "^1.14",
+        "pragmarx/google2fa-laravel": "^1.4",
+        "rap2hpoutre/fast-excel": "^2.1.0",
+        "razorpay/razorpay": "2.*",
+        "revolution/socialite-amazon": "^1.1",
+        "shipu/php-aamarpay-payment": "^1.2",
+        "silviolleite/laravelpwa": "^2.0",
+        "spatie/laravel-backup": "^6.14.4",
+        "spatie/laravel-cookie-consent": "^2.12",
+        "spatie/laravel-googletagmanager": "^2.6",
+        "spatie/laravel-image-optimizer": "^1.5",
+        "spatie/laravel-newsletter": "^4.2",
+        "spatie/laravel-sitemap": "^5.8",
+        "spatie/laravel-translatable": "^4.0",
+        "stichoza/google-translate-php": "^4.0",
+        "tohidplus/laravel-vue-translation": "^2.0",
+        "torann/currency": "^1.1.0",
+        "torann/geoip": "^3.0.2",
+        "twilio/sdk": "^6.16",
+        "tzsk/payu": "^5.1",
+        "unicodeveloper/laravel-paystack": "^1.0.6",
+        "uxweb/sweet-alert": "^2.0.5",
+        "weblagence/laravel-facebook-pixel": "^1.0",
+        "yajra/laravel-datatables-oracle": "^9.0",
+        "yoeunes/notify": "^1.0.6"
+    },
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.5",
+        "beyondcode/laravel-dump-server": "^1.7.0",
+        "fakerphp/faker": "^1.9.1",
+        "filp/whoops": "^2.9.2",
+        "fzaninotto/faker": "^1.9.1",
+        "imanghafoori/laravel-microscope": "^1.0",
+        "mockery/mockery": "^1.4.2",
+        "nunomaduro/collision": "^5.0",
+        "phpunit/phpunit": "^9.3.3",
+        "tanmuhittin/laravel-google-translate": "^2.0.4"
+    },
+    "autoload": {
+        "files": [
+            "app/Helpers/Tracker.php",
+            "app/Helpers/ProductPrice.php",
+            "app/Helpers/ProductRating.php",
+            "app/Helpers/ShippingPrice.php",
+            "app/Helpers/GuestCartShipping.php",
+            "app/Helpers/CategoryUrl.php",
+            "app/Helpers/SubcategoryUrl.php",
+            "app/Helpers/ChidCategoryUrl.php",
+            "app/Helpers/ProductUrl.php",
+            "app/Helpers/Twilosms.php",
+            "app/Helpers/helper.php"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/",
+            "Modules\\": "Modules/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate"
+        ],
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

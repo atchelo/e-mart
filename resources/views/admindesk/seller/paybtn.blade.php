@@ -1,0 +1,1 @@
+<a href="{{ route('seller.payfororder',$payoutid) }}" class="btn btn-sm bg-olive btn-flat" type="submit"><i class="fa fa-money"></i> Pay to seller</a>
